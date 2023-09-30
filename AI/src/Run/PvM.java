@@ -18,7 +18,7 @@ public class PvM {
         Scanner s = new Scanner(System.in);
         
 
-        int depth = 4;
+        int depth = 5;
 
         while (!board.endOfGame) {
             Game game = new Game(board);
